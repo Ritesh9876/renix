@@ -7,6 +7,7 @@ font-family:"RocknRoll One";
 }
 .hero{
     background-image: url(/image/epic.jpg);
+    background-image:cover;
   height:43vw;
 }
 .hero h3{
@@ -22,6 +23,8 @@ font-family:"RocknRoll One";
 .go{
     margin:10px;
 }
+
+
 .about{
     font-family:bold;
 }
@@ -48,10 +51,25 @@ font-family:"RocknRoll One";
 }
 .buying{
     margin-bottom:30px;
+    color:#27ae60;
 }
+
 .more a{
     
     text-decoration: none;
     color:black;
     
+}
+#sells{
+    color:#27ae60;
+}
+.partners{
+    margin-bottom:60px;
+    color:#27ae60;
+}
+.footer{
+    background-color:#74b9ff;
+}
+.footer h1{
+    margin-bottom:100px;
 }
