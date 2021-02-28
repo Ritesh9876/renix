@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b4948f6796.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contactform.css">
+    <title>Contact Form</title>
+    <style>
+        body{
+    background-image:url(/image/conatact-bac.jpg)  ;
+    background-repeat: none;
+     background-size: cover;
+}
+
+.contain{
+    
+    width:550px;
+    height:810px;
+    margin:auto;
+    
+   border-radius: 12px;
+}
+h1{
+    
+    font-family:Lobster;
+    font-size:60px;
+    color:white;
+    opacity:1;
+    text-align:center;
+     text-shadow:1px 1px 3px black;
+}
+h2{
+    font-family:Lobster;
+    font-size:30px;
+    color:white;
+    text-align:center;
+    text-shadow:1px 1px 3px black;
+}
+.social{
+    text-align:center;
+}
+.google{
+    text-decoration:none;
+     padding:6px;
+    border:1px solid lightseagreen;
+     background-color: lightseagreen;
+     color:white;
+
+
+}
+.fac{
+    text-decoration:none;
+ padding:6px;
+ border:1px solid rgb(32, 178, 64);
+ background-color:rgb(32, 178, 56);
+ color:whtie;   
+}
+.twi{
+    text-decoration:none;
+    padding:6px;
+    border:1px solid orange;
+    background-color:orange;
+    color:white;
+    margin-left:3px;
+}
+.or{
+    color:white;
+}
+.a{
+    color:white;
+    padding-left:10px;
+}
+input[type="text"],
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="password"]{
+    margin:10px;
+    width:90%;
+    height:40px;
+    
+    color:white;
+    border:none;
+    
+}
+
+input[type="submit"]{
+    padding:10px;
+    margin-left:30px;
+    background-color:lightblue;
+    color:white;
+}
+input[type="submit"]:hover{
+    background-color:mediumslateblue;
+}
+.google{
+    margin-left:20px;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+    <form action="">
+    <div class ="contain"  >
+    <h1 >Contact Form</h1>
+    <h2>connect us with</h2>
+    <div class="social">
+    <a href="" class="google"><i class="fab fa-google" ></i> Google</a>
+    <p class="or"> or</p>
+    <a href="" class="fac"><i class="fab fa-facebook-f"></i> Facebook</a>
+    <a href="" class="twi"><i class="fab fa-twitter"></i> Twitter</a>
+</div>
+    <p class="a name">Name:* <br><input type="text" name="Name"id="name" required placeholder="Rohan Duke" ></p>
+    <p class="a Email Address" >Email Address:* <br><input type="text" name="email" id="email"  required placeholder="sam@gmail.com"></p>
+    <p class="a phone">Phone no:* <br><input type="number" name="phone_no" id="phone_no" required placeholder="phone no"></p>
+    <p class="a password">Password:*<br><input type="password" name="password" id="password" required placeholder="--enter password--"></p>
+     <p class="a confirmpassword">Confirm Passowrd:* <br><input type="password" name="password" id="passoword" required placeholder="--enter password--"></p>
+     <input type="submit" value="Login"><br>
+     
+    </div>
+
+</form>
+
+</div>
+</body>
+</html>
