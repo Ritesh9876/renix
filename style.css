@@ -70,8 +70,10 @@ font-family:"RocknRoll One";
 .footer{
     background-color:#00b894;
 }
-.footer h1{
+.footer a  h1{
     margin-bottom:100px;
+    text-decoration:none;
+    color:black;
 }
 .footer-list li{
     margin-top:20px;
